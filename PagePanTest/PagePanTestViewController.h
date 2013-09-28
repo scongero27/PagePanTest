@@ -10,4 +10,6 @@
 
 @interface PagePanTestViewController : UIViewController
 
+- (void)handlePan:(UIPanGestureRecognizer *)gesture;
+
 @end
